@@ -23,9 +23,9 @@ export const FilterCard: FC<FilterCardType> = (props) => {
         <Card.Content className={styles.filterCardContent}>
           <Grid >
             <Grid.Column>
-              {props.types.map((val) => {
+              {props.types.map((val, i) => {
                 return (
-                  <Grid.Row>
+                  <Grid.Row key={i}>
                     <Checkbox className={styles.check} label={val} />
                   </Grid.Row>
                 );

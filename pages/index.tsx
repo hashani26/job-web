@@ -18,8 +18,8 @@ export default function Home() {
   }
 
   function renderFilters() {
-    return FILTER_ARR.map((val) => {
-      return <FilterCard {...val} />;
+    return FILTER_ARR.map((val, i) => {
+      return <FilterCard key={i} {...val} />;
     });
   }
   return (
@@ -48,8 +48,8 @@ export default function Home() {
           </Grid.Column>
           <Grid.Column mobile={12} computer={10} textAlign="right">
             <Image
-              height="50px"
-              width="50px"
+              height="40px"
+              width="40px"
               src={require("./assets/placeholder-profile.png")}
               alt="Picture of the company"
             />
@@ -103,6 +103,7 @@ export default function Home() {
               {VACANCY_ARR.map((val, i) => {
                 return (
                   <JobCard
+                    key={i}
                     img={val.companyLogo}
                     title={val.jobTitle}
                     rating={val.rating}
