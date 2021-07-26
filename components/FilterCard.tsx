@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Image from "next/image";
 import { Card, Grid, Header, Checkbox } from "semantic-ui-react";
-import styles from "../../styles/FilterCard.module.scss";
+import styles from "../styles/FilterCard.module.scss";
 import { Icon } from "semantic-ui-react";
 
 type FilterCardType = {

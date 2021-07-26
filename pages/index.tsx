@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
-import { JobCard } from "./components/JobCard";
-import { FilterCard } from "./components/FilterCard";
+import { JobCard } from "../components/JobCard";
+import { FilterCard } from "../components/FilterCard";
 import { FILTER_ARR, VACANCY_ARR } from "../constant";
 import { Button, Grid, Header, Input, Ref, Sticky } from "semantic-ui-react";
 import { isMobile } from "react-device-detect";
@@ -42,7 +42,7 @@ export default function Home() {
             <Image
               height="50px"
               width="50px"
-              src={require("./assets/logo.png")}
+              src={require("../assets/logo.png")}
               alt="Picture of the company"
             />
           </Grid.Column>
@@ -50,7 +50,7 @@ export default function Home() {
             <Image
               height="40px"
               width="40px"
-              src={require("./assets/placeholder-profile.png")}
+              src={require("../assets/placeholder-profile.png")}
               alt="Picture of the company"
             />
           </Grid.Column>

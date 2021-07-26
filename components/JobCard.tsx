@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Image from "next/image";
 import { Card, Grid, Header, List, Divider, Label } from "semantic-ui-react";
-import styles from "../../styles/JobCard.module.scss";
+import styles from "../styles/JobCard.module.scss";
 import { Icon } from "semantic-ui-react";
 type Meta = {
   [key: string]: string;
