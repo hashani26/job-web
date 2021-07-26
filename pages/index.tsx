@@ -60,7 +60,7 @@ export default function Home() {
       <Grid padded className={styles.banner} textAlign="center">
         <Grid.Row>
           <Header className={styles.searchHeader} as="h2">
-            The Easiest Way to Get Your New Job
+            Your crypto project exchange
           </Header>
         </Grid.Row>
         <Grid.Row>
