@@ -53,6 +53,13 @@
   box-shadow: 0 2px 5px rgb(0 0 0 / 15%);
 }
 
+.footer{
+  height: 100px;
+  background-color: #2d394b;
+  .footerRow{
+    color:#fff !important;
+  }
+}
 // .filterCol {
 //   position: -webkit-sticky;
 //   position: sticky;

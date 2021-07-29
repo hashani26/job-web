@@ -118,6 +118,9 @@ export default function Home() {
           </Grid.Row>
         </Ref>
       </Grid>
+      <Grid padded textAlign="center" className={styles.footer}>
+        <Grid.Row className={styles.footerRow}>© 2021 kEth, Inc.</Grid.Row>
+      </Grid>
     </div>
   );
 }

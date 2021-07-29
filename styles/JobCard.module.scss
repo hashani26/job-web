@@ -2,6 +2,9 @@
   box-shadow: none !important;
   transition: all 0.5s ease !important;
   margin-top: 30px !important;
+  &:last-child {
+    margin-bottom: 20px !important;
+  }
   &:hover {
     -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 15%);
     box-shadow: 0 0 3px rgb(0 0 0 / 15%);
