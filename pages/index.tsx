@@ -46,12 +46,16 @@ export default function Home() {
             />
           </Grid.Column>
           <Grid.Column mobile={12} computer={10} textAlign="right">
-            <Image
+              <a href="https://gig-customer-web.web.app/register/1" style={{cursor: 'pointer'}}>
+              Register
+              </a>
+              
+            {/* <Image
               height="40px"
               width="40px"
               src={require("../assets/placeholder-profile.png")}
               alt="Picture of the company"
-            />
+            /> */}
           </Grid.Column>
           <Grid.Column computer={2}></Grid.Column>
         </Grid.Row>
