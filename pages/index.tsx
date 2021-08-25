@@ -26,7 +26,7 @@ export default function Home() {
     <div>
       <Head>
         <title>App</title>
-        <meta name="description" content="Your crypto project exchange" />
+        <meta name="description" content="Browse Jobs" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -63,7 +63,7 @@ export default function Home() {
       <Grid padded className={styles.banner} textAlign="center">
         <Grid.Row>
           <Header className={styles.searchHeader} as="h2">
-            Your crypto project exchange
+            Browse Jobs
           </Header>
         </Grid.Row>
         <Grid.Row>
