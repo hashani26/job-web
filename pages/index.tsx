@@ -46,7 +46,7 @@ export default function Home() {
             />
           </Grid.Column>
           <Grid.Column mobile={12} computer={10} textAlign="right">
-              <a href="https://gig-customer-web.web.app/register/1" style={{cursor: 'pointer'}}>
+              <a href="#" style={{cursor: 'pointer'}}>
               Register
               </a>
               
