@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>kEth</title>
+        <title>App</title>
         <meta name="description" content="Your crypto project exchange" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -123,7 +123,7 @@ export default function Home() {
         </Ref>
       </Grid>
       <Grid padded textAlign="center" className={styles.footer}>
-        <Grid.Row className={styles.footerRow}>© 2021 kEth, Inc.</Grid.Row>
+        <Grid.Row className={styles.footerRow}>© 2021 App, Inc.</Grid.Row>
       </Grid>
     </div>
   );
